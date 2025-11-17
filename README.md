@@ -1,2 +1,2 @@
 # ECE341-code
-C code for Microcontrollers labs
+This contains all the labs performed for the Microcontrollers course at University of Idaho
