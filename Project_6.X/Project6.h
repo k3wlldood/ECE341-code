@@ -1,0 +1,18 @@
+#ifndef __PROJECT_6_H__
+    #define __PROJECT_6_H__
+#endif
+
+/* Definitions */
+#define LCD_DATA (BIT_0|BIT_1|BIT_2|BIT_3|BIT_4|BIT_5|BIT_6|BIT_7) //Port E
+#define LCD_EN BIT_5  //Port D
+#define LCD_RS BIT_15 //Port B
+#define LCD_RW BIT_4  //Port D
+
+/* Function prototypes */
+void initialize_system(void);
+int LCD_read(int RS);
+void writeLCD(int addr, char c);
+void busyLCD();
+char readLCD(int addr);
+void LCD_puts();
+void LCD_putc();
